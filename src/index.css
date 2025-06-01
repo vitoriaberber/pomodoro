@@ -1,0 +1,10 @@
+body {
+  width: 100vw;
+  height: 95vh;
+  overflow: hidden;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(to right, #272635, #373644, #413f4b);
+}

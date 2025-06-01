@@ -1,0 +1,49 @@
+.principal__container{
+    display: flex;
+    flex-direction: column;
+    background-color: #CECECE;
+    padding: 1.5rem;
+    border-radius: 10px;
+    border: 5px solid #67666F;
+}
+
+.container__botoes{
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.container__botoes button{
+    padding: .3rem .8rem;
+    border: none;
+    background-color: #474652;
+    color: white;
+    border-radius: 20px;
+}
+
+.container__botoes button:hover{
+    cursor: pointer;
+    background-color: #373644;
+}
+
+.principal__container p{
+    color: black;
+    font-size: 3rem;
+}
+
+@media screen and (width <= 430px) {
+    .principal__container{
+        margin: 1rem;
+    }
+    .container__botoes{
+        gap: 1rem;
+    }
+
+    .container__botoes button{
+        padding: auto;
+    }
+
+    .principal__container p{
+        font-size: 2rem;
+    }
+}

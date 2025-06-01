@@ -1,0 +1,21 @@
+.principal{
+    text-align: center;
+    color: white;
+}
+
+.principal__titulo{
+    font-size: 5rem;
+    margin-bottom: 2rem;
+    margin-top: 0;
+}
+
+.principal svg{
+    width: 90px;
+    height: 90px;
+}
+
+@media screen and (width <= 430px) {
+    .principal__titulo{
+        font-size: 3rem;
+    }
+}
